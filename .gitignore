@@ -1,0 +1,61 @@
+# ─────────────────────────────
+# Global Node
+# ─────────────────────────────
+node_modules/
+*/node_modules/
+
+# ─────────────────────────────
+# Environment Variables
+# ─────────────────────────────
+*.env
+*.env.local
+*.env.production
+client/.env*
+server/.env*
+
+# ─────────────────────────────
+# Next.js Build Files
+# ─────────────────────────────
+.client/.next
+client/.next
+client/out
+client/build
+
+# ─────────────────────────────
+# Node Backend Build & Logs
+# ─────────────────────────────
+server/build
+server/dist
+server/npm-debug.log*
+server/yarn-debug.log*
+server/yarn-error.log*
+
+# ─────────────────────────────
+# Temporary Uploads (DO NOT TRACK USER FILES)
+# ─────────────────────────────
+uploads/
+server/uploads/
+
+# ─────────────────────────────
+# ChromaDB Persistent Storage
+# (local vector DB should never go to GitHub)
+# ─────────────────────────────
+data/
+server/data/
+db/chroma/
+
+# ─────────────────────────────
+# OS + Editor Files
+# ─────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─────────────────────────────
+# Logs
+# ─────────────────────────────
+*.log
+logs/
