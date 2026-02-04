@@ -10,8 +10,8 @@ dotenv.config();
 app.use(cors());
 app.use(express.json());
 
-// import uploadRoutes from "./routes/uploadRoutes.js";
-// import queryRoutes from "./routes/queryRoutes.js";
+import uploadRoutes from "./routes/uploadRoutes.js";
+import queryRoutes from "./routes/queryRoutes.js";
 
 
 app.get("/",(req,res)=>{
