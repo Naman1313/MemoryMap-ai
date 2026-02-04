@@ -3,6 +3,9 @@ const app = express();
 import cors from "cors";
 import dotenv from "dotenv";
 
+import "./db/chroma.js";
+import "./db/mongo.js";
+
 dotenv.config();
 app.use(cors());
 app.use(express.json());
